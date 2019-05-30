@@ -1,0 +1,57 @@
+h1{
+	text-align:center;
+	margin-top:20px;
+	font-size:60px;
+}
+
+#modulo{
+	display:flex;
+	width:100%;
+	background-image:url("../Imagenes/trabajo.jpg");
+}
+
+.contenedor{
+	width: 100%;
+	text-align: center;
+	margin-top: 40px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.medio, .superior{
+	display: table;
+	opacity: 0.6;
+	border-radius: 1em;
+	margin: 20px auto;
+	padding: 6px;
+	background-color: white;
+	box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -2px -2px 5px 5px rgba(0,0,0,0.22);
+}
+
+.medio:active, .superior:active{
+	transform: scale(0.9, 0.9);
+	transition:all 0.3s;	
+	box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -2px -2px 5px 5px rgba(0,0,0,0.22);
+}
+
+h2{
+	text-decoration: underline;
+	font-size: 40px;
+	margin-top:10px;
+	color:white;
+}
+
+h3{
+	font-size: 35px;
+	color: #23A6D5;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+	margin-top:40px;
+	color:white;
+}
+

@@ -1,0 +1,22 @@
+#galeria{
+	display:flex;
+	flex-wrap: wrap;
+}
+
+#galeria div{
+	margin: 30px auto;
+}
+
+#galeria img{
+	background-color:white;	
+	border-radius: 40px;
+	width:400px;
+	box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -2px -2px 5px 5px rgba(0,0,0,0.22);
+}
+
+#galeria img:active{
+	transform: scale(0.9, 0.9);
+	transition:all 0.3s;	
+	box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -2px -2px 5px 5px rgba(0,0,0,0.22);
+}
+
